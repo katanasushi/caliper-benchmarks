@@ -5,7 +5,7 @@ install_and_bind () {
 	cd caliper-benchmarks
 	npm init -y
 	npm install --save @hyperledger/caliper-cli@0.4.0
-	sed -i "s/this.checkConfig(ethereumConfig);/\/\/this.checkConfig(ethereumConfig);/g" node_modules/@hyperledger/caliper-ethereum/lib/ethereum-connector.js
+	sed -i '' "s/this.checkConfig(ethereumConfig);/\/\/this.checkConfig(ethereumConfig);/g" node_modules/@hyperledger/caliper-ethereum/lib/ethereum-connector.js
 	npx caliper bind --caliper-bind-sut ethereum:1.2.1
 }
 
