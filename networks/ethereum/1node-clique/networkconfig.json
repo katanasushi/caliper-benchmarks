@@ -8,19 +8,19 @@
     },
     "ethereum": {
         "url": "http://127.0.0.1:8546",
-        "contractDeployerAddress": "0x58240d8acb282aae883043990d8a2d7e2e75cf3b",
+        "contractDeployerAddress": "0x3c54375a587a0177d2b450c88689f0ff822d6c5f",
         "contractDeployerAddressPassword": "1234567",
-        "fromAddress": "0x58240d8acb282aae883043990d8a2d7e2e75cf3b",
+        "fromAddress": "0x3c54375a587a0177d2b450c88689f0ff822d6c5f",
         "fromAddressPassword": "1234567",
-        "transactionConfirmationBlocks": 0,
+        "transactionConfirmationBlocks": 2,
         "contracts": {
             "simple": {
                 "path": "./src/ethereum/simple/simple.json",
                 "estimateGas": true,
                 "gas": {
-                    "open": 100000,
-                    "query": 100000,
-                    "transfer": 100000
+                    "open": 1245000,
+                    "query": 321412,
+                    "transfer": 443212
                 }
             }
         }
